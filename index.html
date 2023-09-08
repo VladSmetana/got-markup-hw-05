@@ -374,12 +374,14 @@
                     <use href="./images/icons.svg#icon-email-black" ></use>
                 </svg></div>
         </div>
-        <div class="modal-form-container">
-            <label for="comment-modal" class="modal-form-label">Comment</label>
-            <textarea name="comment" rows="5" cols="5" placeholder="Text input" id="comment-modal" class="modal-comment" ></textarea>
+        <div class="modal-form-container comment">
+            <label for="user-comment" class="modal-form-label">Comment</label>
+            <textarea name="user-comment" rows="5" cols="5" placeholder="Text input" id="user-comment" class="user-comment" ></textarea>
             </div>
-        <input type="checkbox" name="private-policy-checkbox" class="checkbox" id="private-policy-check" value="true">
-        <label for="private-policy-check">I accept the terms and conditions of the <a href="" class="private-policy">Privacy Policy</a> </label>
+        <div class="modal-form-label comment-container">
+            <input type="checkbox" name="user-privacy" class="user-privacy" id="user-privacy" value="true">
+            <label for="user-privacy">I accept the terms and conditions of the <span class="privacy-policy"><a href="" class="private-policy">Privacy Policy</a></span> </label>
+        </div>
     </form>
 </div>
 </div>

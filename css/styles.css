@@ -523,6 +523,9 @@ img{
 .modal-form-container{
     margin-bottom: 8px;
 }
+.comment{
+    margin-bottom: 16px;
+}
 .modal-form-label{
     font-size: 12px;
     line-height: 1.17;
@@ -557,18 +560,39 @@ img{
 .input-modal-form:focus .modal-svg{
     fill: #4D5AE5;
 }
-.modal-comment{
+.user-comment{
     resize: none;
     width:100%;
     min-height: 120px;
 }
-.modal-comment::placeholder{
+.user-comment::placeholder{
     color:  rgba(46, 47, 66, 0.40);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.04em;
-    padding-top:8px;
-    padding-left: 16px;
+    padding: 8px 16px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.user-comment:focus{
+    border-color: #4D5AE5;
+}
+.comment-container{
+    margin-bottom: 24px;
+}
+.user-privacy{
+    visibility: hidden;
+}
+.privacy-policy{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
 }
