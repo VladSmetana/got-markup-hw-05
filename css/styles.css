@@ -523,7 +523,7 @@ img{
 .modal-form-container{
     margin-bottom: 8px;
 }
-.comment{
+.comment-container{
     margin-bottom: 16px;
 }
 .modal-form-label{
@@ -578,7 +578,7 @@ img{
 .user-comment:focus{
     border-color: #4D5AE5;
 }
-.comment-container{
+.privacy-container{
     margin-bottom: 24px;
 }
 
@@ -596,4 +596,13 @@ img{
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
+}
+.check-svg{
+    cursor: pointer;
+    fill: transparent;
+}
+.input-check:checked .modal-check + .check-svg{
+    background-color:  #404bbf;
+    border: none;
+    fill:#F4F4FD;
 }
