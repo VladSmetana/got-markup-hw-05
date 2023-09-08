@@ -163,7 +163,7 @@ img{
     text-transform: capitalize;
     text-align:center;
 }
-.hidden-title{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -581,10 +581,11 @@ img{
 .comment-container{
     margin-bottom: 24px;
 }
-.user-privacy{
-    visibility: hidden;
-}
+
 .privacy-policy{
+    color:#4d5ae5;
+}
+.modal-check{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -594,7 +595,5 @@ img{
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-.modal-checked{
-
+    margin-right: 8px;
 }
