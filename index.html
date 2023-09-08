@@ -352,7 +352,7 @@
     <button type="button" class="modal-button">
     <svg class="close-svg" width="8" height="8">
         <use href="./images/icons.svg#icon-close-black"></use>
-    </svg></button></div>
+    </svg></button>
     <p class="paragraph">Leave your contacts and we will call you back</p>
     <form class="modal-form" name="leave-your-contacts-form" >
         <div class="modal-form-container">
@@ -378,9 +378,12 @@
         </div>
         <div class="modal-form-container">
             <label for="comment-modal" class="modal-form-label">Comment</label>
-            <textarea name="comment" rows="5" cols="5" placeholder="Text input" id="comment-modal" ></textarea>
+            <textarea name="comment" rows="5" cols="5" placeholder="Text input" id="comment-modal" class="modal-comment" ></textarea>
             </div>
+        <input type="checkbox" name="private-policy-checkbox" class="checkbox" id="private-policy-check" value="true">
+        <label for="private-policy-check">I accept the terms and conditions of the <a href="" class="private-policy">Privacy Policy</a> </label>
     </form>
+</div>
 </div>
 </body>
 </html>
