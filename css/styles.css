@@ -420,6 +420,7 @@ img{
 }
 .form {
     display: flex;
+    gap:24px;
 }
 .form-label {
     display: flex;
@@ -459,16 +460,9 @@ img{
     border-radius: 4px;
     margin-left: 24px;
 }
-.svg-button-container {
-    padding: 8px 24px 8px 16px;
+.svg-button {
+    margin-left: 16px;
 }
-/*.textarea {*/
-/*    resize: none;*/
-/*}*/
-/*.form-field{*/
-/*    display:flex;*/
-/*    align-items: center;*/
-/*}*/
 .modal-container{
     position: fixed;
     top:0;
