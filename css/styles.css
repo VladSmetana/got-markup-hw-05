@@ -599,7 +599,7 @@ img{
 }
 .check-svg{
     cursor: pointer;
-    fill: transparent;
+    /*fill: transparent;*/
 }
 
 .input-check:checked + .user-privacy-label > .modal-check{
