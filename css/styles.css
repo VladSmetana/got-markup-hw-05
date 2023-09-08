@@ -601,7 +601,8 @@ img{
     cursor: pointer;
     fill: transparent;
 }
-.input-check:checked .modal-check + .check-svg{
+
+.input-check:checked + .user-privacy-label > .modal-check{
     background-color:  #404bbf;
     border: none;
     fill:#F4F4FD;
